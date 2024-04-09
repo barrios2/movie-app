@@ -18,6 +18,7 @@ To set up the app on your end just clone the repo and run 'npm i' to install all
 
 ## Structure
 
+```
 ├── public
 │ ├── favicon.ico
 │ ├── index.html
@@ -54,6 +55,7 @@ To set up the app on your end just clone the repo and run 'npm i' to install all
 ├── package-lock.json
 ├── package.json
 └── README.md
+```
 
 ## Author
 

@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { InteractionContextProvider } from './context/MovieContext';
 import Homepage from './pages/HomePage';
 import MovieDetailPage from './pages/MovieDetailPage';
-import { InteractionContextProvider } from './context/MovieContext';
 import FavoritesPage from './pages/FavoritesPage';
 
 function App() {

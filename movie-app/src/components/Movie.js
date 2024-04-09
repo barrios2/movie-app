@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import { IMAGE_URL } from "../utils/constants";
 import { useEffect, useState } from 'react';
 import { useInteraction } from '../context/MovieContext';
-import heartReg from '../assets/heart-regular.svg';
 import heartSol from '../assets/heart-solid.svg';
+import heartReg from '../assets/heart-regular.svg';
 
 export default function Movie({ movie }) {
   const [imageSrc, setImageSrc] = useState('')

@@ -1,8 +1,8 @@
-import { useEffect } from 'react';
-import NavBar from '../components/NavBar';
 import { KEY, LANGUAGE, SEARCH_MOVIE_BY_ID_URL } from '../utils/constants';
-import Movie from '../components/Movie';
+import { useEffect } from 'react';
 import { useInteraction } from '../context/MovieContext'
+import NavBar from '../components/NavBar';
+import Movie from '../components/Movie';
 
 export default function FavoritesPage() {
   const { results, favorites, isLoading, setIsLoading, setResults, errorMessage, setErrorMessage } = useInteraction();

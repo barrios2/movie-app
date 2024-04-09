@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
-import useFetch from '../hooks/useFetch';
 import { KEY, LANGUAGE, SEARCH_MOVIES_TITLE_URL } from '../utils/constants';
+import { useEffect, useState } from 'react';
 import { useInteraction } from '../context/MovieContext';
+import useFetch from '../hooks/useFetch';
 
 export default function SearchBar() {
   const [movieTitle, setMovieTitle] = useState('');

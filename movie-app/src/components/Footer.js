@@ -6,8 +6,8 @@ export default function Footer() {
           <div className='footer-column'>
             <h4>Time for Entertainment</h4>
             <p className='footer-btn'>Codename Annika</p>
-            <p className='footer-btn'>Yellowstone</p>
             <p className='footer-btn'>Special Ops Lioness</p>
+            <p className='footer-btn'>Yellowstone</p>
             <p className='footer-btn'>Fellow Travelers</p>
             <p className='footer-btn'>Lawmen Bass Reeves</p>
           </div>

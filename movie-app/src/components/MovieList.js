@@ -1,8 +1,8 @@
+import { LANGUAGE, POPULAR_MOVIES_URL, MOVIES_BY_GENRES_URL } from '../utils/constants';
+import { useInteraction } from '../context/MovieContext';
 import { useEffect, useState } from 'react';
 import useFetch from '../hooks/useFetch';
-import { LANGUAGE, POPULAR_MOVIES_URL, MOVIES_BY_GENRES_URL } from '../utils/constants';
 import Movie from './Movie';
-import { useInteraction } from '../context/MovieContext';
 import ErrorMessage from './Error';
 
 export default function MovieList() {

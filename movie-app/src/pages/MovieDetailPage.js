@@ -1,11 +1,11 @@
+import { IMAGE_URL, LANGUAGE, MOVIE_DETAILS } from '../utils/constants';
+import { useEffect } from 'react';
+import { useInteraction } from '../context/MovieContext';
 import heartReg from '../assets/heart-regular.svg'
 import heartSol from '../assets/heart-solid.svg'
-import { useEffect } from 'react';
 import NavBar from '../components/NavBar';
-import { IMAGE_URL, LANGUAGE, MOVIE_DETAILS } from '../utils/constants';
 import useFetch from '../hooks/useFetch';
 import Footer from '../components/Footer';
-import { useInteraction } from '../context/MovieContext';
 
 export default function MovieDetailPage() {
   const { movieDetails, setMovieDetails, activeMovieInfo, favorites, toggleFavorite } = useInteraction();

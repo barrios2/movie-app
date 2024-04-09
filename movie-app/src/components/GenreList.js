@@ -1,12 +1,12 @@
 import Genre from './Genre';
 import useFetch from '../hooks/useFetch';
 import { GENRES_URL } from '../utils/constants';
-import { useEffect } from 'react';
 import { useInteraction } from '../context/MovieContext';
+import { useEffect } from 'react';
 
 export default function GenreList() {
-  const { data, isLoading } = useFetch(GENRES_URL);
   const { genres, setGenres } = useInteraction();
+  const { data, isLoading } = useFetch(GENRES_URL);
 
   useEffect(() => {
     setGenres(data?.genres);

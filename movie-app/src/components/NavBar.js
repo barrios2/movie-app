@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
+import { useInteraction } from '../context/MovieContext';
 import SearchBar from './SearchBar';
 import logoImage from '../assets/freskytime.png';
-import { useInteraction } from '../context/MovieContext';
 import GenreList from './GenreList';
 
 export default function NavBar({ showSearchBar }) {
